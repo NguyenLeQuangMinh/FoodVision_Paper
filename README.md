@@ -4,7 +4,7 @@ The following is an implementation of the paper [Food101 paper](https://data.vis
 ![](assets/foodvision.png)
 
 ## Introduction
-Building a machine learning model that's able to automatically recognizing pictured dishes.
+Training the EfficienetNetB0 model that's automatically recognizing pictured dishes.
 
 ## Dataset
 Access the dataset through [TensorFlow Datasets (TFDS)](https://www.tensorflow.org/datasets/overview) - A place for prepared and ready-to-use machine learning datasets.
@@ -21,7 +21,12 @@ This dataset include all 75,750 training images and 25,250 testing images with 1
 * Fine-tuning the feature extraction model
 * Viewing training results on TensorBoard
 
-## Inference
+## Result & Inference
+
+### Result
+The model EfficienetNetB0 get 80% accuracy on the validation dataset in short time of training (Thanks to the strength of GPU, data batching, mixed precision training)
+
+### Inference
 The following table shows the inference from the model:
 
 ![](assets/inference.png)
